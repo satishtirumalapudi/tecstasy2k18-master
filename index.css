@@ -1,0 +1,526 @@
+@media screen and (max-width:990px)
+{
+	p{
+		text-align:center;
+	}
+	
+	body
+	{
+	background-image:url("images/background.jpg");
+	overflow:hidden;
+	}
+	#logo{
+	position:absolute;
+	top:35%;
+	left:25%;
+	width:50%;
+	height:30%;
+	}
+	#img1_center {
+	position:absolute;
+	top:10%;
+	left:10%;
+	width:80%;
+	height:80%;
+	object-fit: scale-down;
+	}
+	#img2_center {
+	position:absolute;
+	top:10%;
+	width:80%;
+	height:80%;
+	left:10%;
+	object-fit: scale-down;
+	}
+	
+	#ll10{
+		width:70%;
+		height:70%;
+	}
+	#ll9{
+		width:20%;
+		height:20%;
+	}
+	#ll8{
+		width:20%;
+		height:20%;
+	}
+	#ll7{
+		width:50%;
+		height:50%;
+	}
+	#ll6{
+		width:20%;
+		height:20%;
+	}
+	#ll5{
+		width:60%;
+		height:60%;
+	}
+	#ll4{
+		width:20%;
+		height:20%;
+	}
+	#ll3{
+		width:20%;
+		height:20%;
+	}
+	#ll2{
+		width:28%;
+		height:28%;
+	}
+	#ll1{
+		width:30%;
+		height:30%;
+	}
+	.cognos{
+	position:absolute;
+	top: 7vh;
+    left: 15vw;
+	}
+	.vitrivius{
+	position:absolute;
+	 top: 80vh;
+    left: 40vw;
+
+	}
+	          .techfun{
+	             position:absolute;
+	             top: 86vh;
+                    left: 5vw;
+                    
+	          }
+	.kodemania{
+	position:absolute;
+	top: 58vh;
+    left: -5vw;
+	}
+	.quizzbuzz{
+	position:absolute;
+	top: 79vh;
+    left: 74vw;
+	}
+	.traceit{
+	position:absolute;
+	top: 18vh;
+    left: 0vw;
+	}
+	.logotag{	
+	position:absolute;
+	top: 66vh;
+    left: 75vw;
+	}
+	.scintillate{	
+	position:absolute;
+	top: 0vh;
+    left: 10vw;
+	}
+	.trapdoor{	
+	position:absolute;
+	top: 73vh;
+    left: 17vw;
+	}
+	.ctf{	
+	position:absolute;
+	top: 12vh;
+       left: 55vw;
+	}		
+	.a-tile{ text-decoration: none;
+  		padding: 10px;
+  		background-color: red;
+  		color: white;
+  		margin-bottom: 0px;
+  	 }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*laptop*/
+@media (min-width:62em) {
+	.top{
+		height:90%;
+	}
+	.bottom{
+		height:10%;
+		
+	}
+	p{
+		text-align:center;
+	}
+#img1_center{
+	position:fixed;
+	top:18%;
+	left:33%;
+}
+#img2_center{
+	top:18%;
+	left:33%;
+	position:fixed;
+}
+
+body
+{
+	background-image:url("images/background.jpg");
+	  position: fixed; 
+   
+  height:100%;
+	 background-size: cover;
+	 background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+	overflow:hidden;
+}
+
+
+.inner
+{
+	position:absolute;
+}
+.layer 
+{
+	position:relative;
+	object-fit: scale-down;
+}
+.cognos{
+	position:relative;
+	top: 130px;
+    left: 20px;
+}
+.vitrivius{
+	position:relative;
+	top:50px;
+	left:300px;
+}
+.techfun{
+	position:relative;
+	top:250px;
+	left:250px;
+}
+.kodemania{
+	position:relative;
+	top:430px;
+	left:70px;
+	width:60%;
+	height:auto;
+}
+.quizzbuzz{
+	position:relative;
+	top:480px;
+	left:370px;
+}
+.traceit{
+	position:relative;
+	top:230px;
+	left:1000px;
+}
+.logotag{	
+	position:relative;
+	top:420px;
+	left:1150px;
+}
+.scintillate{	
+	position:relative;
+	top:70px;
+	left:900px;
+}
+.trapdoor{	
+	position:relative;
+	top:470px;
+	left:870px;
+}
+.ctf{	
+	position:relative;
+	top:50px;
+	left:1150px;
+}
+
+/*robo*/
+.container{
+	position:absolute;
+	top:36%;
+	left:42%;
+}
+.cozmo{
+	position:absolute;
+	height: 150px;
+	width: 200px;
+	margin: auto;
+	background: url("images/cozmo_body.png");
+	background-size: 173px 200px;
+	background-repeat: no-repeat;
+}
+
+
+.cozmo_body{
+	position:absolute;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+}
+
+.eye_pan{
+	position:relative;
+	display: table;
+	padding: 30px 50px;
+	
+}
+.eye{
+	position:relative;
+	height: 15px;
+	min-width:20px;
+	max-width:20px;
+	background: url("images/eyes.png");
+	border-radius: 5px;
+	position: absolute;
+	margin-left:5px;
+	transition: .5s height ease-in-out;
+}
+.eye_l{
+	top:0px;
+	left: 0px;
+}
+.eye_r{
+	top:0px;
+	left: 25px;
+}
+.pan_area{
+	position:relative;
+	width: 70px;
+	height: 55px;
+	position: relative;
+}
+.focused{
+	position:relative;
+	height: 18px ;
+}
+
+p.texts{
+position:absolute;
+top:30px;
+left:410px;
+}
+#logo{
+	position:absolute;
+	top:-18%;
+	left:34%;
+	width:30%;
+	height:50%;
+}
+  	.a-tile{ text-decoration: none;
+  		padding: 10px;
+  		background-color:red;
+  		color: white;
+  		border-radius: 5px;
+  		
+
+  	 }
+
+
+/*robo ends*/
+/*
+#thinkl1{
+	position:absolute;
+	top:-60px;
+	left:710px;
+}
+#think1l1{
+	position:absolute;
+	top:-60px;
+	left:750px;
+}
+#thinkl2{
+	position:absolute;
+	top:20px;
+	left:480px;
+}
+#think1l2{
+	position:absolute;
+	top:20px;
+	left:520px;
+}
+#thinkl3{
+	position:absolute;
+	top:-100px;
+	left:550px;
+}
+#think1l3{
+	position:absolute;
+	top:-100px;
+	left:590px;
+}
+#thinkl4{
+	position:absolute;
+	top:-290px;
+	left:700px;
+}
+#think1l4{
+	position:absolute;
+	top:-290px;
+	left:730px;
+}
+#thinkl5{
+	position:absolute;
+	top:-300px;
+	left:440px;
+}
+#think1l5{
+	position:absolute;
+	top:-300px;
+	left:480px;
+}
+#thinkl6{
+	position:absolute;
+	top:-100px;
+	left:-610px;
+}
+#think1l6{
+	position:absolute;
+	top:-100px;
+	left:-570px;
+}
+#abc{
+	position:absolute;
+	top: 0px;
+	left:-450px;
+}
+#think1l7{
+	position:absolute;
+	top:-100px;
+	left:-490px;
+}
+#thinkl8{
+	position:absolute;
+	top:0px;
+	left:-480px;
+}
+#think1l8{
+	position:absolute;
+	top:0px;
+	left:-460px;
+}
+#thinkl9{
+	position:absolute;
+	top:-330px;
+	left:-480px;
+}
+#think1l9{
+	position:absolute;
+	top:-330px;
+	left:-440px;
+}
+#bcd{
+	position:absolute;
+	top:0%;
+	left:0%;
+}
+#bcd1{
+	position:absolute;
+	top:0%;
+	left:0%;
+}
+.texts {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: blue;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.cognos:hover .texts {
+  visibility: visible;
+  opacity: 2;
+}
+.techfun:hover .texts {
+  visibility: visible;
+  opacity: 2;
+}
+.vitrivius:hover .texts {
+  visibility: visible;
+  opacity: 2;
+}
+.kodemania:hover .texts {
+  visibility: visible;
+  opacity: 2;
+}
+.quizzbuzz:hover .texts {
+  visibility: visible;
+  opacity: 2;
+}
+.traceit:hover .texts {
+  visibility: visible;
+  opacity: 2;
+}
+.scintillate:hover .texts {
+  visibility: visible;
+  opacity: 2;
+}
+.trapdoor:hover .texts {
+  visibility: visible;
+  opacity: 2;
+}
+.codeanalytix:hover .texts {
+  visibility: visible;
+  opacity: 2;
+}
+
+*/
+
+/*center rotate*/
+
+
+
+
+
+
+
+
+
+/*loader*/
+
+
+
+
+
+
+
+/*img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}*/
+
+
+/*
+
+@media (orientation: landscape) {
+
+.items{
+    display: none;
+}
+
+}
+*/
